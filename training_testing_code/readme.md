@@ -21,8 +21,8 @@
 1. Prepare folders of `./log` and `./transfer`
 2. Prepare DIV2K training images in `./train`
 
-- [HR images]: `./train/DIV2K_train_HR/*.png`
-- [LR images]:`./train/DIV2K_train_LR_bicubic/X4/*.png`
+- HR images: `./train/DIV2K_train_HR/*.png`
+- LR images:`./train/DIV2K_train_LR_bicubic/X4/*.png`
 
 3. Prepare LR/HR images  in `./val`
 
