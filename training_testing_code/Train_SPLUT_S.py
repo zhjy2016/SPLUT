@@ -317,7 +317,7 @@ if __name__ == '__main__':
                     image_out = np.clip(image_out, 0. , 1.)      # CxHxW
                     
                     # Save to file
-                    # image_out = ((image_out)*255).astype(np.uint8)
+                    image_out = ((image_out)*255).astype(np.uint8)
                     # Image.fromarray(image_out).save('result/{}/{}.png'.format(str(VERSION), fn.split('/')[-1]))
 
                     # PSNR on Y channel
